@@ -15,5 +15,6 @@
         "outDir": "dist",
         "lib": ["es7", "DOM"]
     },
-    "include": ["src/**/*", "test"]
+    "include": ["src/**/*"],
+    "exclude": ["**/test/*"]
 }
