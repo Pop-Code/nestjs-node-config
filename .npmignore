@@ -19,3 +19,5 @@ dist/test/
 config/
 coverage/
 .eslintignore
+.yarnrc.yml
+.yarn
