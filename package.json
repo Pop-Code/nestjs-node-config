@@ -13,7 +13,7 @@
         "test:watch": "jest --watch",
         "test:cov": "jest --coverage",
         "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest",
-        "lint": "eslint ./src/**/*.ts",
+        "lint": "eslint ./src",
         "format": "prettier \"**/*.ts\" --ignore-path ./.prettierignore --write && git status"
     },
     "dependencies": {
