@@ -21,3 +21,4 @@ coverage/
 .eslintignore
 .yarnrc.yml
 .yarn
+.editorconfig
