@@ -1002,13 +1002,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/json5@npm:^0.0.29":
-  version: 0.0.29
-  resolution: "@types/json5@npm:0.0.29"
-  checksum: e60b153664572116dfea673c5bda7778dbff150498f44f998e34b5886d8afc47f16799280e4b6e241c0472aef1bc36add771c569c68fc5125fc2ae519a3eb9ac
-  languageName: node
-  linkType: hard
-
 "@types/node@npm:*, @types/node@npm:^17.0.27":
   version: 17.0.27
   resolution: "@types/node@npm:17.0.27"
@@ -3812,17 +3805,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "json5@npm:1.0.1"
-  dependencies:
-    minimist: ^1.2.0
-  bin:
-    json5: lib/cli.js
-  checksum: e76ea23dbb8fc1348c143da628134a98adf4c5a4e8ea2adaa74a80c455fc2cdf0e2e13e6398ef819bfe92306b610ebb2002668ed9fc1af386d593691ef346fc3
-  languageName: node
-  linkType: hard
-
 "jsonc-parser@npm:^3.0.0":
   version: 3.0.0
   resolution: "jsonc-parser@npm:3.0.0"
@@ -4077,7 +4059,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.0, minimist@npm:^1.2.6":
+"minimist@npm:^1.2.6":
   version: 1.2.6
   resolution: "minimist@npm:1.2.6"
   checksum: d15428cd1e11eb14e1233bcfb88ae07ed7a147de251441d61158619dfb32c4d7e9061d09cab4825fdee18ecd6fce323228c8c47b5ba7cd20af378ca4048fb3fb
@@ -4247,7 +4229,7 @@ __metadata:
     rxjs: ^7.5.5
     ts-jest: ^27.1.4
     ts-node: ^10.7.0
-    tsconfig-paths: ^3.14.1
+    tsconfig-paths: ^4.1.1
     typedoc: ^0.22.15
     typescript: ^4.6.3
   peerDependencies:
@@ -5472,15 +5454,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-paths@npm:^3.14.1":
-  version: 3.14.1
-  resolution: "tsconfig-paths@npm:3.14.1"
+"tsconfig-paths@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "tsconfig-paths@npm:4.1.1"
   dependencies:
-    "@types/json5": ^0.0.29
-    json5: ^1.0.1
+    json5: ^2.2.1
     minimist: ^1.2.6
     strip-bom: ^3.0.0
-  checksum: 8afa01c673ebb4782ba53d3a12df97fa837ce524f8ad38ee4e2b2fd57f5ac79abc21c574e9e9eb014d93efe7fe8214001b96233b5c6ea75bd1ea82afe17a4c6d
+  checksum: 3a1c6c8f614370ee648313d71bbde2a3bcdfb7e99ad068b7791d7b04fac78f120021c96ab4ec285ba78469f13fc08317a987fdf0d90ea03f8d47305e25bd29c6
   languageName: node
   linkType: hard
 
